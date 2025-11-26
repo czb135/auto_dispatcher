@@ -48,9 +48,8 @@ The application features a user-friendly **Streamlit** interface that allows use
 1.  **Start the application**
     Run the following command in your terminal:
     ```bash
-    streamlit run auto_dispatcher_v4.py
+    streamlit run auto_dispatcher.py
     ```
-    *(Note: Replace `auto_dispatcher_v4.py` with your actual script name)*
 
 2.  **Configure Settings (Sidebar)**
     * **Concurrent Workers:** Recommended **3-5** for standard laptops.
