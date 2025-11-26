@@ -144,8 +144,8 @@ def main():
     st.sidebar.header("⚙️ 运行配置")
     
     # 既然处理很慢，建议并发别开太高，稳定为主
-    num_workers = st.sidebar.slider("并发窗口数量", 1, 20, 5, 
-                                help="性能怪兽专用：请根据电脑内存量力而行！")
+    num_workers = st.sidebar.slider("并发窗口数量", 1, 40, 15, 
+                                help="M3 Max 建议设置 12-20 个")
     
     batch_size = st.sidebar.number_input("单次处理单量", 
                                          min_value=10, max_value=2000, value=500, step=100)
